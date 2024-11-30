@@ -1,11 +1,13 @@
 package com.xuecheng.system.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
 //通过加一个跨域拦截器来 过滤相应，在响应头上加上请求
+@Configuration
 public class GlobalCorsConfig {
 
     @Bean
