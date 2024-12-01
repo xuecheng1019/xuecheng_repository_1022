@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@Api(value = "", tags = "")
+@Api(value = "课程分类接口", tags = "课程分类接口")
 public class CourseCategoryCotroller {
 
     @Autowired
